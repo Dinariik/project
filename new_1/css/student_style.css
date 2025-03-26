@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    padding: 20px;
+}
+header {
+    background-color: #1A1A96;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.logout {
+    background-color: #ff4c4c;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+.logout:hover {
+    background-color: #c0392b;
+}
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 30px;
+}
+.profile-box {
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    width: 48%;
+}
+
+.profile-box img {
+    max-width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 10px 0;
+}
+.achievement-form-container {
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    width: 48%;
+}
+
+h1, h2, h3 {
+    color: #1A1A96;
+    margin-bottom: 15px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+select, input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+input[type="submit"] {
+    background-color: #5247eb;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin-top: 15px;
+}
+
+input[type="submit"]:hover {
+    background-color: #3b32c7;
+}
+.achievements-container {
+    margin-top: 30px;
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+.achievements {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.semester-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    min-width: 300px;
+    text-align: center;
+}
+
+.semester-card h2 {
+    margin-bottom: 10px;
+}
+
+.semester-card h3 {
+    margin-top: 15px;
+    color: #333;
+}
+
+.semester-card ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.semester-card li {
+    padding: 10px;
+    background: #ffffff;
+    border-radius: 8px;
+    margin: 8px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.semester-card img {
+    display: block;
+    max-width: 100%;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+.semester-card a {
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.semester-card a:hover {
+    opacity: 0.7;
+}
